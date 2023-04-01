@@ -13,5 +13,7 @@ CVPT covers a wide range of visualization techniques, spanning 105 unique exampl
 - gptResult.json stores the prompt and response of benchmarking LLMs, including the baseline (GPT-3 Davinci-3), fewshot learning, fine-tuning, and the DataBot method.
 - finetune: data used for fine-tuning GPT-3
 
+In our experiment, we hold out the first 5 examples for few-shot learning and the next 400 for fine-tuning. The remaining data is used for testing.
+
 ## Demo
 [demo.ipynv](https://github.com/Chat2Chart/Chat2Chart/blob/main/demo.ipynb) provides a walk-through to read the data, view the visualization, fine-tune models, and compare results.
