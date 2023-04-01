@@ -3,6 +3,9 @@ Chat2Chart provides a set of three datasets for benchmarking LLMs, two adapted f
 
 CVPT covers a wide range of visualization techniques, spanning 105 unique examples from the [Vega-Lite gallery](https://vega.github.io/vega-lite/examples/) with varying complexity from basic charts to composite ones. 
 
+![image](https://user-images.githubusercontent.com/14938532/229285040-55edf713-743d-4433-9825-608851b5992b.png)
+
+
 ## Access to Datasets  
 /datasets includes three folder for each dataset with a consistent structure:
 - corpus.csv stores the NL utterance, ground-truth visualization, and dataset used for each visualization
@@ -11,4 +14,4 @@ CVPT covers a wide range of visualization techniques, spanning 105 unique exampl
 - finetune: data used for fine-tuning GPT-3
 
 ## Demo
-Demo.ipynv provides a walk-through to read the data, view the visualization, fine-tune models, and compare results.
+[demo.ipynv](https://github.com/Chat2Chart/Chat2Chart/blob/main/demo.ipynb) provides a walk-through to read the data, view the visualization, fine-tune models, and compare results.
